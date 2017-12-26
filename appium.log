@@ -1,0 +1,41 @@
+[Appium] Welcome to Appium v1.7.1
+[Appium] Non-default server args:
+[Appium]   port: 49786
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49787
+[Appium]   tmpDir: /var/folders/g_/ldkyh3dd38x_kqm_zc69m18h0000gn/T//Katalon/Appium/Temp1514286414309
+[Appium] Appium REST http interface listener started on 0.0.0.0:49786
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 24 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/Frans/Documents/Skyshi/SweatCircle/Sweatcircle.ipa","automationName":"XCUITest","deviceName":"iPhone 8 Plus","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"A0C36A6E-989E-4510-9808-006761526875","waitForAppScript":"true;","wdaLocalPort":49804},"capabilities":{"desiredCapabilities":{"app":"/Users/Frans/Documents/Skyshi/SweatCircle/Sweatcircle.ipa","automationName":"XCUITest","deviceName":"iPhone 8 Plus","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"A0C36A6E-989E-4510-9808-006761526875","waitForAppScript":"true;","wdaLocalPort":49804},"firstMatch":[{"platformName":"ios"}]}}
+[Appium] Creating new XCUITestDriver (v2.51.1) session
+[Appium] Capabilities:
+[Appium]   app: '/Users/Frans/Documents/Skyshi/SweatCircle/Sweatcircle.ipa'
+[Appium]   automationName: 'XCUITest'
+[Appium]   deviceName: 'iPhone 8 Plus'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platformName: 'iOS'
+[Appium]   realDeviceLogger: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole'
+[Appium]   udid: 'A0C36A6E-989E-4510-9808-006761526875'
+[Appium]   waitForAppScript: 'true;'
+[Appium]   wdaLocalPort: 49804
+[BaseDriver] Session created with session id: bb968139-6241-4aba-a3ac-99158dd6320e
+[iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid 'A0C36A6E-989E-4510-9808-006761526875'
+[XCUITest] Determining device to run tests on: udid: 'A0C36A6E-989E-4510-9808-006761526875', real device: false
+[XCUITest] No platformVersion specified. Using device version: '11.2'
+[BaseDriver] Using local app '/Users/Frans/Documents/Skyshi/SweatCircle/Sweatcircle.ipa'
+[BaseDriver] Unzipped local app to '/var/folders/g_/ldkyh3dd38x_kqm_zc69m18h0000gn/T/20171126-4715-fjhg36.nv7tk/Payload/SweatCircleApp.app'
+[XCUITest] Setting up simulator
+[iOSSim] Booting Simulator with UDID A0C36A6E-989E-4510-9808-006761526875...
+[iOSSim] Simulator with UDID A0C36A6E-989E-4510-9808-006761526875 booted in 33 seconds
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Shutting down sub-processes
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Shutting down sub-processes
+[HTTP] <-- POST /wd/hub/session 500 66070 ms - 257 
